@@ -26,9 +26,13 @@ h4 {
 }
 
 h1:hover {
-  color: white;
+  color: rgb(217, 217, 217);
 }
 
 h4 {
   font-size: 18px;
+}
+
+.mail {
+  margin-right: 10px;
 }
