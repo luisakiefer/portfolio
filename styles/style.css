@@ -69,10 +69,9 @@ p {
 }
 
 footer {
-  border-top: 1px solid #232323 ;
-  padding-top: 30px
+  border-top: 1px solid #232323;
+  padding-top: 30px;
 }
-
 
 a {
   color: var(--primary-color);
@@ -114,8 +113,8 @@ a.highlight {
 
 .redes-sociais-home {
   font-family: "IBM Plex Serif", serif;
-  display: flex; 
-  gap: 10px
+  display: flex;
+  gap: 10px;
 }
 
 .project-image {
@@ -128,6 +127,10 @@ a.highlight {
   }
   .logo {
     margin-left: -24px;
+  }
+
+  .home-main {
+    height: 300px;
   }
 
   .project-image {
