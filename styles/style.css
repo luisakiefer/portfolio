@@ -129,4 +129,10 @@ a.highlight {
   .logo {
     margin-left: -24px;
   }
+
+  .project-image {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
 }
