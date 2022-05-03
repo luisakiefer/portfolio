@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #232323;
+  --secondary-color: #d9d9d9;
+}
+
 html,
 body {
   height: 100%;
@@ -21,7 +26,7 @@ body.sobre {
 }
 
 body.projects {
-  background-color: #c9a644;
+  background-color: #bdbdbd;
   display: flex-start;
   justify-content: center;
   align-items: center;
@@ -41,7 +46,6 @@ h1 {
   margin-top: -10px;
   font-size: 30px;
   text-transform: uppercase;
-  color: #232323;
 }
 
 h2 {
@@ -64,13 +68,19 @@ p {
   font-weight: 300;
 }
 
+footer {
+  border-top: 1px solid #232323 ;
+  padding-top: 30px
+}
+
+
 a {
-  color: #232323;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(217, 217, 217);
+  color: var(--secondary-color);
 }
 
 a.highlight {
@@ -83,16 +93,18 @@ a.highlight {
   flex-direction: column;
   max-width: 100%;
 }
-.mail {
-  margin-right: 10px;
+
+.home-main {
+  height: 400px;
 }
 
 .logo-home {
-padding: 10px, 10px, 10px, 0;
+  padding: 10px, 10px, 10px, 0;
 }
 
 .logo {
-  margin-left: -30px; 
+  margin-left: -30px;
+  text-transform: uppercase;
 }
 
 .redes-sociais {
@@ -100,17 +112,21 @@ padding: 10px, 10px, 10px, 0;
   margin-top: 30px;
 }
 
+.redes-sociais-home {
+  font-family: "IBM Plex Serif", serif;
+  display: flex; 
+  gap: 10px
+}
+
 .project-image {
   margin-top: 30px;
 }
 
-
-@media (max-width:600px){
+@media (max-width: 600px) {
   h1 {
-    font-size: 18px;
+    font-size: 21px;
   }
   .logo {
     margin-left: -24px;
   }
-  
 }
