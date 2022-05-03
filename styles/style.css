@@ -13,19 +13,24 @@ body.home {
 }
 
 body.sobre {
-  background-color: #0764a2;
+  background-color: #2780c4;
   display: flex-start;
   justify-content: center;
   align-items: center;
   padding-top: 10px;
 }
 
+body.projects {
+  background-color: #a88d42;
+  display: flex-start;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
 
-
-h1,
+h1, 
 h4 {
   font-family: "Work Sans", sans-serif;
-  font-size: 30px;
   font-weight: 200;
 }
 
@@ -34,14 +39,21 @@ h1 {
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: -10px;
+  font-size: 30px;
   text-transform: uppercase;
 }
 
-
+h3{
+   font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  margin-top: 30px;
+}
 
 h4 {
   font-size: 18px;
 }
+
+
 
 a {
   color:#232323;
@@ -50,6 +62,11 @@ a {
 
 a:hover {
   color: rgb(217, 217, 217);
+}
+
+a.highlight {
+  font-family: 'IBM Plex Serif', serif;
+  font-style: italic;
 }
 
 .container {
@@ -64,3 +81,9 @@ a:hover {
 .logo {
   margin-left: -30px;
 }
+
+.redes-sociais {
+  font-family: 'IBM Plex Serif', serif;
+  margin-top: 30px;
+}
+
