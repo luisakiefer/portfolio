@@ -41,6 +41,7 @@ h1 {
   margin-top: -10px;
   font-size: 30px;
   text-transform: uppercase;
+  color: #232323;
 }
 
 h2 {
@@ -86,8 +87,12 @@ a.highlight {
   margin-right: 10px;
 }
 
+.logo-home {
+padding: 10px, 10px, 10px, 0;
+}
+
 .logo {
-  margin-left: -30px;
+  margin-left: -30px; 
 }
 
 .redes-sociais {
@@ -97,4 +102,15 @@ a.highlight {
 
 .project-image {
   margin-top: 30px;
+}
+
+
+@media (max-width:600px){
+  h1 {
+    font-size: 18px;
+  }
+  .logo {
+    margin-left: -24px;
+  }
+  
 }
