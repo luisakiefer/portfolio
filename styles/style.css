@@ -21,14 +21,14 @@ body.sobre {
 }
 
 body.projects {
-  background-color: #a88d42;
+  background-color: #c9a644;
   display: flex-start;
   justify-content: center;
   align-items: center;
   padding-top: 10px;
 }
 
-h1, 
+h1,
 h4 {
   font-family: "Work Sans", sans-serif;
   font-weight: 200;
@@ -43,8 +43,13 @@ h1 {
   text-transform: uppercase;
 }
 
-h3{
-   font-family: "Work Sans", sans-serif;
+h2 {
+  font-family: "IBM Plex Serif", serif;
+  margin-top: 10px;
+}
+
+h3 {
+  font-family: "Work Sans", sans-serif;
   font-weight: 300;
   margin-top: 30px;
 }
@@ -53,10 +58,13 @@ h4 {
   font-size: 18px;
 }
 
-
+p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+}
 
 a {
-  color:#232323;
+  color: #232323;
   text-decoration: none;
 }
 
@@ -65,7 +73,7 @@ a:hover {
 }
 
 a.highlight {
-  font-family: 'IBM Plex Serif', serif;
+  font-family: "IBM Plex Serif", serif;
   font-style: italic;
 }
 
@@ -83,7 +91,10 @@ a.highlight {
 }
 
 .redes-sociais {
-  font-family: 'IBM Plex Serif', serif;
+  font-family: "IBM Plex Serif", serif;
   margin-top: 30px;
 }
 
+.project-image {
+  margin-top: 30px;
+}
