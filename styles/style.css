@@ -71,6 +71,7 @@ p {
 footer {
   border-top: 1px solid #232323;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 a {
@@ -98,9 +99,8 @@ a.highlight {
 }
 
 .content-container.projects {
-height: 100%;
+  height: 100%;
 }
-
 
 .logo-home {
   padding: 10px, 10px, 10px, 0;
@@ -119,11 +119,18 @@ height: 100%;
 .redes-sociais-home {
   font-family: "IBM Plex Serif", serif;
   display: flex;
-  gap: 10px;
+  justify-content: center;
+  gap: 15px;
 }
 
 .project-image {
   margin-top: 30px;
+}
+
+.copyrights {
+  font-size: 13px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 200;
 }
 
 @media (max-width: 600px) {
