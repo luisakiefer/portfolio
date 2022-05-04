@@ -61,6 +61,7 @@ h3 {
 
 h4 {
   font-size: 18px;
+  text-align: right;
 }
 
 p {
@@ -137,6 +138,12 @@ a.highlight {
   h1 {
     font-size: 21px;
   }
+
+  footer {
+  border-top: 1px solid #232323;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
   .logo {
     margin-left: -24px;
   }
@@ -150,4 +157,22 @@ a.highlight {
     margin: 0 auto;
     margin-top: 30px;
   }
+
+ 
+
+  .foot-copyrights{
+    text-align: center;
+    line-height: 12px;
+  }
+
+  .foot-redes {
+    padding: 10px;
+  }
+
+  .foot-mail {
+    text-align: center;
+    font-size: 16px;
+  }
+
+
 }
