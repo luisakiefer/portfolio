@@ -140,10 +140,10 @@ a.highlight {
   }
 
   footer {
-  border-top: 1px solid #232323;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+    border-top: 1px solid #232323;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
   .logo {
     margin-left: -24px;
   }
@@ -158,9 +158,7 @@ a.highlight {
     margin-top: 30px;
   }
 
- 
-
-  .foot-copyrights{
+  .foot-copyrights {
     text-align: center;
     line-height: 12px;
   }
@@ -173,6 +171,4 @@ a.highlight {
     text-align: center;
     font-size: 16px;
   }
-
-
 }
